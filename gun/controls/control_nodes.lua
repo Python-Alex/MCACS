@@ -13,7 +13,6 @@ yawDirection =  RedstoneController.isSignalOn(yawGearshiftC)
 pitchDirection = RedstoneController.isSignalOn(pitchGearshiftC)
 
 function toggleYawDirection()
-    print(yawDirection)
-    print(pitchDirection)
+    RedstoneController.isSignalOn(yawGearshiftC)
 
 end
