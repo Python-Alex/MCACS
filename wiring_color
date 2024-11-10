@@ -1,0 +1,8 @@
+ACN | ARM CANNON NODE - Prepares cannon for firing. Disable to load
+    :: BLUE
+
+FCN | FIRE CANNON NODE - Fires cannon based on logic-gates set.
+    :: RED
+
+LUBN | LOCK/UNLOCK BREECH NODE - Unlocks or locks the breech. ACN|FCN must be disabled.
+    :: GREEN
